@@ -1,6 +1,6 @@
 test: reorder seq
-	time ./reorder
-	time ./seq
+	./seq
+	./reorder
 
 reorder: main.cpp
 	g++ -O2 -o reorder main.cpp
